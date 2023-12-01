@@ -34,7 +34,7 @@ h1{
 
 .logo3{
     position: relative;
-    text-align: center; 
+    text-align: center;
 }
 .icon{
     position: absolute;
@@ -57,7 +57,9 @@ h2{
     float:left;
    
 }
-
+audio{
+    margin-left: 3rem;
+}
 .radio{
    float:left;
     position: relative;
@@ -98,3 +100,11 @@ p{
 ::-webkit-scrollbar-corner {
     background-color: black;
 } 
+@media (max-width:420px){
+    audio{
+        margin-left:0;
+    }
+    .radio{
+        border: none;
+     }
+}
