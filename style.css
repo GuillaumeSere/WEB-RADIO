@@ -31,19 +31,10 @@ h1{
     font-style:oblique;
     text-shadow:blue 1px 2px 3px;
 }
-.logo1{
-    position: relative;
-    float: right; 
-}
-.logo2{
-    position: relative;
-    float: left;
-    margin-top: -104px;
-}
+
 .logo3{
     position: relative;
     text-align: center; 
-    margin-left: 90px;
 }
 .icon{
     position: absolute;
@@ -73,6 +64,9 @@ h2{
     margin:40px;
    width: 400px;
    margin-top: 6rem;
+   border: 3px solid white;
+   border-radius: 20px;
+   padding: 0.5rem;
 }
 p{
     font-style: normal;
