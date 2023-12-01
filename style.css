@@ -38,14 +38,16 @@ h1{
     position: relative;
     text-align: center;
     width: 100%;
-
     opacity: 0.9;
 }
 .icon{
     position: absolute;
-    width: 80px;
+    z-index: 1000;
+    width: 100px;
     top:-4rem;
-    right: 1rem;left: -1rem;margin-right: 0.5rem;
+    right: 1rem;
+    left: -1rem;
+    margin-right: 0.5rem;
 }
 h2{
     color: blueviolet;
@@ -113,4 +115,9 @@ p{
         border: none;
         margin-right:1rem;
      }
+     .icon{
+        width: 103px;
+        top:-4.8rem;
+        left: 7rem;
+    }
 }
