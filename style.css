@@ -41,6 +41,9 @@ h1{
     width: 100%;
     opacity: 0.9;
 }
+.gif{
+    height: 150px;
+}
 .icon{
     position: absolute;
     z-index: 1000;
@@ -56,20 +59,20 @@ h1{
 }
 .code{
     margin: 0 auto;
-    margin-top: -5rem;
+    margin-top: -6rem;
     margin-right: 10rem;
 }
 span{
-    color: white;
     display: flex;
     align-items: flex-end;
    justify-content: flex-end;
    text-transform: uppercase;
    margin-right: 7rem;
-   margin-top: -2rem;
+   margin-top: -4rem;
+   margin-bottom: 1rem;
    font-size: 20px;
    font-weight: bold;
-   color: #36c547;
+   color: #a3aaed;
 }
 
 h2{
