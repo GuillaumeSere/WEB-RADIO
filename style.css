@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Permanent+Marker&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -6,7 +8,7 @@ body{
     background-image: url("images/fond.jpg");
     background-attachment: fixed;
     background-size: cover;
-    
+    font-family: 'Nosifer', sans-serif;
 }
 .header{
     height: 157px;
@@ -34,7 +36,7 @@ h1{
     background: black;
     opacity: 0.9;
     font-style:oblique;
-    text-shadow:blue 1px 2px 3px;
+    text-shadow:rgb(36, 152, 214)3px 2px 3px;
     font-size: 60px;
 }
 
@@ -103,7 +105,7 @@ audio{
     margin:40px;
    width: 400px;
    margin-top: 6rem;
-   border: 3px solid white;
+   border: 2px solid white;
    border-radius: 20px;
    padding: 0.5rem;
 }
