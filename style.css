@@ -110,16 +110,30 @@ audio{
    border-radius: 20px;
    padding: 0.5rem;
 }
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.link{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    margin: 1rem;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 p{
-    font-style: normal;
-    font-family: monospace;
-    font-size: 22px;
-    color: blueviolet;
-   text-shadow:blue 1px 2px 3px;
-   background-color: black;
-   text-align: center;
-   border-radius: 30px;
-   margin-bottom: 10px;
+    color: white;
 }
 ::-webkit-scrollbar {
     width: 15px;
