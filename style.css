@@ -25,6 +25,7 @@ body{
 }
 .banner{
     width: 100%;
+    margin-top: 0.5rem;
     height: auto;
     position: relative;
     color: rgb(64, 56, 116);
@@ -32,6 +33,7 @@ body{
     font-size: 20px;
     font-family: monospace;
     text-shadow: black 2px 4px 6px;
+    z-index: 10000;
 }
 h1{
     background: black;
@@ -41,6 +43,9 @@ h1{
     text-shadow:rgb(36, 152, 214)3px 2px 3px;
     font-size: 40px;
     font-family: "Nosifer", sans-serif;
+}
+.casque{
+    margin-bottom: -2rem;
 }
 
 .logo3{
@@ -170,19 +175,22 @@ p{
     }
 }
 @media (max-width:913px){
+    h1{
+        font-size: 28px;
+    }
  
     span{
         margin-top: 9rem;
     }
     .code{
         width: 70px;
-       margin: 0 auto;
+       margin-left: 3rem;
        margin-top: -1rem;
     }
 }
 @media (max-width:420px){
     h1{
-        font-size: 40px;
+        font-size: 22px;
     }
     audio{
         margin-left:0;
