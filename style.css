@@ -133,6 +133,9 @@ audio{
     height: 40px;
     margin: 1rem;
 }
+ img.link:hover {
+    transform: scale(1.2);
+  }
 .footer-links{
     display: flex;
     justify-content: space-between;
