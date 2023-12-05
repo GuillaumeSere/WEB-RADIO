@@ -204,12 +204,11 @@ p{
      .icon{
         width: 103px;
         top:-4.8rem;
-        left: 7rem;
+        margin: 0 auto;
     }
     .code{
         width: 70px;
-       margin: 0 auto;
-       margin-left: 2rem;
+       margin: 0 auto
     }
 
     span{
