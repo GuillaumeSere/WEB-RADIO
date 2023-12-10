@@ -127,6 +127,7 @@ audio::-webkit-media-controls-current-time-display{
     background-color: #ffffffad;
     color: black;
     font-weight: bold;
+    display: none;
 }
 audio::-webkit-media-controls-play-button{
     color: white !important;
