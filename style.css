@@ -106,7 +106,7 @@ audio{
     margin-left: 3rem;
 }
 audio::-webkit-media-controls-enclosure{
-    background-color: #3b2f9a;
+    background-color: #0ad5f3;
     padding: 0.5rem;
     border:11px solid #8102ec;
 }
