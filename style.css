@@ -105,13 +105,19 @@ h2{
 audio{
     margin-left: 3rem;
 }
+audio::-webkit-media-controls-enclosure{
+    background-color: #6a5ec7;
+}
+audio::-webkit-media-controls-play-button{
+    color: white;
+}
 .radio{
    float:left;
     position: relative;
     margin:40px;
    width: 400px;
    margin-top: 6rem;
-   border: 2px solid #7168a7;
+   border: 2px solid  #0ad5f3;
    border-radius: 20px;
    padding: 0.5rem;
 }
