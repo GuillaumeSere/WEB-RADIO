@@ -106,7 +106,7 @@ audio{
     margin-left: 3rem;
 }
 audio::-webkit-media-controls-enclosure{
-    background-color: #3b2f9a;
+    background-color: #2f869a;
 }
 .radio{
    float:left;
