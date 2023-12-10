@@ -122,7 +122,16 @@ audio::-webkit-media-controls-play-button{
    padding: 0.5rem;
 }
 
-
+audio::-webkit-media-controls-current-time-display{
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #393d92c2;
+    border: 2px solid  #0ad5f3;
+    color: white;
+}
+audio::-webkit-media-controls-play-button{
+    color: white !important;
+}
 .footer{
     display: flex;
     justify-content: center;
