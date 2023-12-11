@@ -37,6 +37,8 @@ body{
     z-index: 10000;
 }
 h1{
+    position: relative;
+    margin-top: 1rem;
     background: black;
     opacity: 0.9;
     font-style:oblique;
