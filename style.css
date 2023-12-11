@@ -77,6 +77,10 @@ h1{
     margin-top: -3rem;
     margin-right: 1rem;
 }
+.playPauseBtn {
+    display: inline-block;
+    margin-top: 10px; /* Adjust as needed */
+}
 span{
     display: flex;
     align-items: flex-end;
@@ -127,7 +131,7 @@ audio::-webkit-media-controls-enclosure{
 }
 
 .playing {
-    background-color: #13179d;
+    background-color: #9597f6;
 }
 
 audio::-webkit-media-controls-current-time-display{
