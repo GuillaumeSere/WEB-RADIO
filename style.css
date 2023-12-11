@@ -5,8 +5,11 @@
     padding: 0;
 }
 body{
-    background-image: url("images/fond.jpg");
-    background-size: cover;
+    background-image: url("images/fond.png");
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+
 }
 .header{
     height: 157px;
