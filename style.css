@@ -46,6 +46,7 @@ h1{
     text-shadow:rgb(206 254 1) 3px 2px 3px;
     font-size: 40px;
     font-family: "Nosifer", sans-serif;
+    animation: myAnim 100s ease-out infinite;
 }
 .casque{
     margin-bottom: -2rem;
