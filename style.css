@@ -149,8 +149,8 @@ audio{
 audio::-webkit-media-controls-enclosure{
     background-color: #a2a8f7;
     padding: 0.5rem;
-    border:5px solid #8102ec;
-    border-bottom: 3px solid blue;
+    border:2px solid #8102ec;
+    border-bottom: 2px solid blue;
 }
 .radio{
    float:left;
@@ -159,13 +159,14 @@ audio::-webkit-media-controls-enclosure{
    width: 400px;
    margin-top: 6rem;
    border: 2px solid  #9c0af3;
-   border-bottom: 5px solid blue;
+   border-bottom: 2px solid blue;
    border-radius: 20px;
    padding: 0.5rem;
 }
 
 .playing {
-    background-color: #9597f6;
+      background: linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
+      border: none;
 }
 
 audio::-webkit-media-controls-current-time-display{
