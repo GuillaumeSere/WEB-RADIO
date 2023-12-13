@@ -184,7 +184,7 @@ audio::-webkit-media-controls-play-button{
     align-items: center;
     height: 100px;
     width: 100%;
-    background: black;
+    background: transparent;
 }
 .link{
     position: relative;
