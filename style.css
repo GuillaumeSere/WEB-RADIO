@@ -159,7 +159,7 @@ audio::-webkit-media-controls-enclosure{
    width: 400px;
    margin-top: 6rem;
    border: 2px solid  #9c0af3;
-   border-bottom: 2px solid blue;
+   border-bottom:2px solid #0ad5f3;
    border-radius: 20px;
    padding: 0.5rem;
 }
