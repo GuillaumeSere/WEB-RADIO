@@ -166,7 +166,8 @@ audio::-webkit-media-controls-enclosure{
 
 .playing {
       background: linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
-      border: none;
+      border: 2px solid transparent;
+      border-bottom: 2px solid transparent;
 }
 
 audio::-webkit-media-controls-current-time-display{
