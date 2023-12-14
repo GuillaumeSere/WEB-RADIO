@@ -130,16 +130,6 @@ span{
    z-index: 10000;
 }
 
-h2{
-    color: blueviolet;
-    border: 2px black solid;
-    background-color: black;
-    text-align: center;
-    font-size: 26px;
-    font-family: monospace;
-    text-shadow:blue 1px 2px 3px;
-    margin-top: -4px;
-}
 .aside{
     position: relative;
     float:left;
@@ -167,7 +157,7 @@ audio::-webkit-media-controls-enclosure{
 
 .playing {
       background: linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
-      border: 2px solid transparent;
+      border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
       border-bottom: 2px solid transparent;
 }
 
