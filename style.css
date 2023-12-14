@@ -156,7 +156,7 @@ audio::-webkit-media-controls-enclosure{
 }
 
 .playing {
-      background:linear-gradient(34deg, #4239bc 0%, #be7236 100%);
+      background:linear-gradient(34deg, #4239bc 0%, #5d8c90 100%);
       border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
       border-bottom: 2px solid transparent;
 }
