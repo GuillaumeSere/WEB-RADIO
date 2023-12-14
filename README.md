@@ -1,10 +1,9 @@
 # WEB-RADIO
 
 
+![20231214225442](https://github.com/GuillaumeSere/WEB-RADIO/assets/75996200/eb9f2b4b-60bb-4ba5-ab13-24ed23de3bfc)
 
 
-
-![20231214204232](https://github.com/GuillaumeSere/WEB-RADIO/assets/75996200/c8f435a6-7c13-448f-b61c-c73da3ff76a8)
 
 
 
