@@ -3,7 +3,8 @@
 
 
 
-![20231211005718](https://github.com/GuillaumeSere/WEB-RADIO/assets/75996200/69a41f74-e162-41dc-b057-df13cec5632a)
+
+![20231214204232](https://github.com/GuillaumeSere/WEB-RADIO/assets/75996200/c8f435a6-7c13-448f-b61c-c73da3ff76a8)
 
 
 
