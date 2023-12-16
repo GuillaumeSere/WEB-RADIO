@@ -103,6 +103,9 @@ h1{
     left: -1rem;
     margin-right: 0.5rem;
 }
+.icon:hover{
+    transform: scale(1.5);
+}
 .qr-code{
     position: relative;
     border: 1px solid #0ad5f3;
