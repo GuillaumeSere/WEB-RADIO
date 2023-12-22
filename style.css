@@ -157,9 +157,20 @@ audio::-webkit-media-controls-enclosure{
    padding: 0.5rem;
 }
 
+audio::-webkit-media-controls-enclosure {
+    background-color: #4f96aa;
+    padding: 0.5rem;
+    border: 2px solid #8102ec;
+    border-bottom: 2px solid blue;
+}
+
 .playing {
-      border: 1px solid #04fcb3;
       background:linear-gradient(34deg, #4d7a77 0%, #070707 100%);
+      border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
+      border: 1px solid #04fcb3;
+}
+.playing audio::-webkit-media-controls-enclosure {
+    border: 1px solid #04fcb3;
 }
 
 audio::-webkit-media-controls-current-time-display{
