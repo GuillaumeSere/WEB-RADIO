@@ -139,20 +139,13 @@ span{
 audio{
     margin-left: 3rem;
 }
-audio::-webkit-media-controls-enclosure{
-    background-color: #4f96aa;
-    padding: 0.5rem;
-    border:2px solid #8102ec;
-    border-bottom: 2px solid blue;
-}
 .radio{
    float:left;
     position: relative;
     margin:40px;
    width: 400px;
    margin-top: 6rem;
-   border: 2px solid  #9c0af3;
-   border-bottom:2px solid #0ad5f3;
+   border:2px solid #0ad5f3;
    border-radius: 20px;
    padding: 0.5rem;
 }
@@ -160,14 +153,13 @@ audio::-webkit-media-controls-enclosure{
 audio::-webkit-media-controls-enclosure {
     background-color: #4f96aa;
     padding: 0.5rem;
-    border: 2px solid #8102ec;
-    border-bottom: 2px solid blue;
 }
 
 .playing {
       background:linear-gradient(34deg, #4d7a77 0%, #070707 100%);
       border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
       border: 1px solid #04fcb3;
+      border-radius: 40px;
 }
 .playing audio::-webkit-media-controls-enclosure {
     border: 1px solid #04fcb3;
@@ -281,5 +273,8 @@ p{
         margin-right: 10rem;
         font-size: 14px;
         margin-bottom: 0.5rem;
+    }
+    .playing audio::-webkit-media-controls-enclosure {
+        border: 1px solid #04fcb3;
     }
 }
