@@ -53,6 +53,12 @@ h1{
     animation: myAnim 2.5s ease-out infinite;
 }
 
+.radio.playing .icon {
+    border: 3px solid#0ad5f3;
+    border-radius: 50%;
+}
+
+
 @keyframes myAnim {
 	0% {
 		transform: scale3d(1, 1, 1);
@@ -156,9 +162,8 @@ audio::-webkit-media-controls-enclosure {
 }
 
 .playing {
-      background:linear-gradient(34deg, #4d7a77 0%, #070707 100%);
+      background:linear-gradient(34deg, #4d7a77 0%, #222eb4 100%);
       border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
-      border: 1px solid #04fcb3;
       border-radius: 40px;
 }
 .playing audio::-webkit-media-controls-enclosure {
@@ -257,7 +262,7 @@ p{
     }
     .radio{
         border: none;
-        margin-right:1rem;
+        max-width: 300px;
      }
      .icon{
         width: 103px;
