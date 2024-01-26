@@ -285,6 +285,6 @@ p{
         margin-bottom: 0.5rem;
     }
     .playing audio::-webkit-media-controls-enclosure {
-        border: 1px solid #04fcb3;
+        border: 8px solid #04fcb3;
     }
 }
