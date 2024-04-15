@@ -59,7 +59,7 @@ h1{
 }
 
 .radio .icon {
-    border: 3px solid rgb(74, 40, 158);
+    border: 3px solid rgb(4, 225, 250);
     border-radius: 50%;
 }
 
@@ -162,17 +162,17 @@ audio{
 }
 
 audio::-webkit-media-controls-enclosure {
-    background-color: #4f96aa;
+    background-color: #4f96aac5;
     padding: 0.5rem;
 }
 
 .playing {
-      background:linear-gradient(34deg, #4d7a77 0%, #222eb4 100%);
+      background:linear-gradient(34deg, #4d7a77 0%, #121314 100%);
       border: 2px solid linear-gradient(219deg, #9b0af1 44%, #0eafe0 100%);
       border-radius: 40px;
 }
 .playing audio::-webkit-media-controls-enclosure {
-    border: 5px solid #04fcb3;
+    border: 5px solid #00d3fe;
 }
 
 audio::-webkit-media-controls-current-time-display{
@@ -285,6 +285,6 @@ p{
         margin-bottom: 0.5rem;
     }
     .playing audio::-webkit-media-controls-enclosure {
-        border: 8px solid #04fcb3;
+        border: 6px solid #04f4fc;
     }
 }
