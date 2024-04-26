@@ -214,7 +214,7 @@ p{
     letter-spacing: 2px;
 }
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 8px;
     background-color: rgb(8, 6, 10);
 }
 ::-webkit-scrollbar-track {
@@ -224,7 +224,7 @@ p{
 } /* the new scrollbar will have a flat appearance with the set background color */
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(97, 43, 128, 0.13); 
+    background-color: #00d3fe; 
     border-radius: 50px;
 } /* this will style the thumb, ignoring the track */
 
