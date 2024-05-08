@@ -128,6 +128,7 @@ h1{
     top:-8rem;
     right: 1rem;
     margin-right: 0.5rem;
+    border: 2px solid  #0ad5f3;
 }
 .playPauseBtn {
     display: inline-block;
