@@ -43,7 +43,7 @@ h1{
     opacity: 0.9;
     font-style:oblique;
     letter-spacing: 5px;
-    text-shadow:rgb(206 254 1) 3px 2px 3px;
+    text-shadow:#0ad5f3 5px -3px 0px;
     font-size: 40px;
     font-family: "Nosifer", sans-serif;
     animation: myAnim 15s ease-out infinite;
