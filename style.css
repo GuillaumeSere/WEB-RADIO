@@ -119,11 +119,15 @@ h1{
 .qr-code{
     position: relative;
     border: 1px solid #0ad5f3;
+    transform: scale(1);
 }
 .code{
-    margin: 0 auto;
-    margin-top: -3rem;
-    margin-right: 1rem;
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    top:-8rem;
+    right: 1rem;
+    margin-right: 0.5rem;
 }
 .playPauseBtn {
     display: inline-block;
@@ -240,7 +244,7 @@ p{
         margin-bottom: 0.5rem;
     }
     .code{
-        margin-top: -1rem;
+        margin-top: 3rem;
         width: 70px;
     }
 }
@@ -254,8 +258,7 @@ p{
     }
     .code{
         width: 70px;
-       margin-left: 3rem;
-       margin-top: -1rem;
+       left: 3rem;
     }
 }
 @media (max-width:420px){
@@ -276,7 +279,9 @@ p{
     }
     .code{
         width: 70px;
-       margin: 0 auto
+        margin:0 auto;
+        margin-top: 3.5rem;
+        margin-right: 10.5rem;
     }
 
     span{
