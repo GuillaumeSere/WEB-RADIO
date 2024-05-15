@@ -3,11 +3,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var currentAudio = null;
 
     function playRadio(audio) {
-        if (currentAudio && currentAudio !== audio) {
-            currentAudio.pause();
-            currentAudio.parentElement.classList.remove('playing');
-        }
+        // Stop all audio streams first
+        radios.forEach(function (r) {
+            var audioElement = r.querySelector('audio');
+            if (audioElement !== audio && !audioElement.paused) {
+                audioElement.pause();
+                r.classList.remove('playing');
+            }
+        });
 
+        // Play or pause the clicked audio
         if (audio.paused) {
             audio.play();
             audio.parentElement.classList.add('playing');
