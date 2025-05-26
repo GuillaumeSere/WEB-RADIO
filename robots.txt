@@ -1,1 +1,3 @@
-https://guillaumesere.github.io/WEB-RADIO/
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
