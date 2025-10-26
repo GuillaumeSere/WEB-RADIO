@@ -162,8 +162,10 @@ audio{
    width: 400px;
    margin-top: 6rem;
    border:2px solid #0ad5f3;
-   border-radius: 20px;
+   border-radius: 50px;
    padding: 0.5rem;
+   background-color: #ffffff1a;
+   backdrop-filter: blur(10px);
 }
 
 audio::-webkit-media-controls-enclosure {
@@ -272,6 +274,8 @@ p{
     .radio{
         border: none;
         max-width: 300px;
+        background-color: rgba(255, 255, 255, 0.199);
+        backdrop-filter: blur(5px);
      }
      .icon{
         width: 103px;
